@@ -20,4 +20,4 @@ document.write(`Seu nome em minúsculas é: ${nome.toLowerCase()}`) // Transform
 var salario = 1545.5
 salario.toFixed(2) // Deixa com duas casas decimais
 salario.toFixed(2).replace('.', ',') // Transforma ponto em vírgula
-salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'});
